@@ -81,6 +81,12 @@ class LintTests(unittest.TestCase):
     def test_api_entry_requires_metadata(self):
         self.assertTrue(any("auth and limits" in p for p in self.run_lint(section="Record and Archive APIs")))
 
+    def test_api_evidence_must_be_http(self):
+        entry = dict(self.base, section="Record and Archive APIs",
+                     api={"auth": "a", "limits": "b", "evidence": "javascript:alert(1)"})
+        problems = lint_data.check([entry], [{"id": 0, "verdict": "pass", "reason": ""}], {})
+        self.assertTrue(any("evidence must be http" in x for x in problems))
+
     def test_failed_verification_is_reported(self):
         problems = lint_data.check([dict(self.base)], [{"id": 0, "verdict": "fail", "reason": "HTTP 404"}], {})
         self.assertTrue(any("HTTP 404" in p for p in problems))

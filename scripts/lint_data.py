@@ -61,6 +61,8 @@ def check(entries: list[dict], verification: list[dict], manual: dict) -> list[s
             for key in ("auth", "limits", "evidence"):
                 if not api.get(key):
                     problems.append(f"{label}: api.{key} missing")
+            if api.get("evidence") and not str(api["evidence"]).startswith(("https://", "http://")):
+                problems.append(f"{label}: api.evidence must be http(s)")
         if e["section"] == "Record and Archive APIs" and not api and not e.get("repo"):
             problems.append(f"{label}: API entry without auth and limits metadata")
         v = ver.get(e["id"])

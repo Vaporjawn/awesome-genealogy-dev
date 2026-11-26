@@ -19,11 +19,12 @@ import json
 import shutil
 import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = ROOT / "site"
-SITE_URL = "https://vaporjawn.github.io/awesome-genealogy-dev/"
+SITE_URL = "https://vaporjawn.dev/awesome-genealogy-dev/"
 REPO_URL = "https://github.com/Vaporjawn/awesome-genealogy-dev"
 TITLE = (
     "Awesome Genealogy Dev: GEDCOM parsers, family tree libraries and genealogy APIs"
@@ -95,6 +96,17 @@ JS = """
 """
 
 
+def safe_url(url: str) -> str:
+    """Return the URL unchanged when it is http(s); raise otherwise.
+
+    The URLs come from data/entries.json and end up in href attributes, so a
+    ``javascript:`` or ``data:`` URL must stop the build instead of shipping.
+    """
+    if urlparse(url).scheme not in ("http", "https"):
+        raise ValueError(f"refusing non-http(s) URL: {url!r}")
+    return url
+
+
 def esc(value: str) -> str:
     """HTML-escape text for element content and attribute values."""
     return html.escape(value, quote=True)
@@ -107,7 +119,7 @@ def entry_facts(entry: dict, ver: dict) -> str:
     if api:
         facts.append(f"<strong>Auth:</strong> {esc(api['auth'])}")
         facts.append(f"<strong>Limits:</strong> {esc(api['limits'])}")
-        facts.append(f'<a href="{esc(api["evidence"])}" rel="noopener">source</a>')
+        facts.append(f'<a href="{esc(safe_url(api["evidence"]))}" rel="noopener">source</a>')
     repo = ver.get("repo")
     if repo and not repo.get("error"):
         facts.append(esc(repo["license"] or "no license"))
@@ -140,7 +152,7 @@ def render(entries: list[dict], verification: dict[int, dict]) -> tuple[str, str
             body.append(f'<h3>{esc(sub)}</h3><ul class="entries">')
             for e in items:
                 body.append(
-                    f'<li><a class="name" href="{esc(e["url"])}" rel="noopener">{esc(e["name"])}</a>'
+                    f'<li><a class="name" href="{esc(safe_url(e["url"]))}" rel="noopener">{esc(e["name"])}</a>'
                     f'<p class="desc">{esc(e["desc"])}</p>{entry_facts(e, verification[e["id"]])}</li>'
                 )
             body.append("</ul>")

@@ -2,7 +2,7 @@
 
 > Libraries, formats, APIs and tools for developers building genealogy and family-tree software.
 
-This list is for people who write genealogy software, not for people researching their own tree. Search it on the [website](https://vaporjawn.github.io/awesome-genealogy-dev/) or read it below; both come from the same verified data. Looking for a GEDCOM parser, a family tree chart library, a FamilySearch or WikiTree API client, or a way to read old handwritten records? It is here. It covers file formats and specs, parsers, chart libraries, open-source apps, record-archive APIs, DNA and record-linkage tooling, handwriting recognition, historical geocoding, schemas and standards.
+This list is for people who write genealogy software, not for people researching their own tree. Search it on the [website](https://vaporjawn.dev/awesome-genealogy-dev/) or read it below; both come from the same verified data. It covers file formats and specs, parsers, chart libraries, open-source apps, record-archive APIs, DNA and record-linkage tooling, handwriting recognition, historical geocoding, schemas and standards.
 
 Looking for a GEDCOM parser, a GEDCOM 7 or GEDCOM X library, a family tree chart library for JavaScript or Python, a genealogy API (FamilySearch, WikiTree, Geni, national archives), a DNA segment or kinship tool, handwriting recognition for historical records, or a historical gazetteer? Each is a section below, and each API entry states its auth and rate limits.
 

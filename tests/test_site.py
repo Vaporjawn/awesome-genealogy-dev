@@ -77,6 +77,15 @@ class SiteTests(unittest.TestCase):
             len(re.findall(r"</script>", page)), 2
         )  # JSON-LD and the filter script only
 
+    def test_non_http_urls_stop_the_build(self):
+        bad = dict(ENTRIES[0], url="javascript:alert(1)")
+        with self.assertRaises(ValueError):
+            build_site.render([bad], {bad["id"]: VERIFICATION[bad["id"]]})
+        api_entry = next(e for e in ENTRIES if e.get("api"))
+        bad_api = dict(api_entry, api=dict(api_entry["api"], evidence="data:text/html,x"))
+        with self.assertRaises(ValueError):
+            build_site.render([bad_api], {bad_api["id"]: VERIFICATION[bad_api["id"]]})
+
     def test_search_input_has_label(self):
         self.assertIn('<label for="q">', self.page)
 
