@@ -72,7 +72,7 @@ JS = """
 (function(){
   var input=document.getElementById('q'),status=document.getElementById('status');
   var items=[].slice.call(document.querySelectorAll('ul.entries li'));
-  var groups=[].slice.call(document.querySelectorAll('section[data-section]'));
+  var groups=[].slice.call(document.querySelectorAll('.group,section[data-section]'));
   var text=items.map(function(li){return li.textContent.toLowerCase();});
   function run(){
     var terms=input.value.toLowerCase().split(/\\s+/).filter(Boolean),shown=0;
@@ -149,13 +149,13 @@ def render(entries: list[dict], verification: dict[int, dict]) -> tuple[str, str
         chips.append(f'<li><a href="#{anchor}">{esc(title)}</a></li>')
         body.append(f'<section id="{anchor}" data-section><h2>{esc(title)}</h2>')
         for sub, items in subs.items():
-            body.append(f'<h3>{esc(sub)}</h3><ul class="entries">')
+            body.append(f'<div class="group"><h3>{esc(sub)}</h3><ul class="entries">')
             for e in items:
                 body.append(
                     f'<li><a class="name" href="{esc(safe_url(e["url"]))}" rel="noopener">{esc(e["name"])}</a>'
                     f'<p class="desc">{esc(e["desc"])}</p>{entry_facts(e, verification[e["id"]])}</li>'
                 )
-            body.append("</ul>")
+            body.append("</ul></div>")
         body.append("</section>")
 
     json_ld = {

@@ -86,6 +86,9 @@ class SiteTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             build_site.render([bad_api], {bad_api["id"]: VERIFICATION[bad_api["id"]]})
 
+    def test_each_subheading_is_wrapped_so_empty_groups_can_hide(self):
+        self.assertEqual(self.page.count('<div class="group">'), self.page.count("<h3>"))
+
     def test_search_input_has_label(self):
         self.assertIn('<label for="q">', self.page)
 
