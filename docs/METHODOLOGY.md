@@ -63,4 +63,4 @@ Compared on 2026-11-26 with [awesome-gedcom](https://github.com/todrobbins/aweso
 - Rate limits for FamilySearch, Geni, Trove, DPLA, IPUMS and Europeana were not found in the documentation read; the entries say so.
 - A repository's last push is a proxy for maintenance. A commit that only bumps a dependency counts the same as a feature.
 - Wayback and web-search evidence for bot-blocked sites shows the page exists, not that it is up right now.
-- Smoke tests that parse a real GEDCOM file with each library were not run by this pipeline. Another session reported that ged4py, python-gedcom, python-gedcom7, parse-gedcom, read-gedcom, gedcom-go and elliotchance/gedcom parsed a small sample; that was not independently reproduced here.
+- Only the eight GEDCOM libraries in [SMOKE-TESTS.md](SMOKE-TESTS.md) were run against a real file. The other parser, converter and visualization entries are verified by repository status and README, not by execution.

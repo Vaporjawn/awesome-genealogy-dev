@@ -63,7 +63,7 @@ How to read an entry:
 ### JavaScript and TypeScript
 
 - [read-gedcom](https://github.com/arbre-app/read-gedcom) - Typed GEDCOM parser written in TypeScript. *MIT, last push 2025-12.*
-- [gedcom-tools](https://github.com/thememorypalace/gedcom-tools) - Converts GEDCOM 5.5.1 to 7.0 and back, checks files and decodes ANSEL, with no dependencies. *MIT, last push 2026-11.*
+- [gedcom-tools](https://github.com/thememorypalace/gedcom-tools) - Converts GEDCOM 5.5.1 to 7.0 and back, checks files and decodes ANSEL, with no dependencies; published on npm as @thememorypalace/gedcom-tools. *MIT, last push 2026-11.*
 - [gedcom-test-files](https://github.com/thememorypalace/gedcom-test-files) - Small synthetic GEDCOM 5.5.1 and 7.0 files with known faults and encoding edge cases for testing parsers. *MIT, last push 2026-11.*
 - [JsGEDCOM](https://github.com/MesseBasseProduction/JsGEDCOM) - JavaScript GEDCOM parser. *GPL-3.0, last push 2026-06.*
 

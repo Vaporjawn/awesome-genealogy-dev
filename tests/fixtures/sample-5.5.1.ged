@@ -1,0 +1,26 @@
+0 HEAD
+1 SOUR smoke
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Ada /Lovelace/
+1 SEX F
+1 BIRT
+2 DATE 10 DEC 1815
+2 PLAC London, England
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Annabella /Milbanke/
+1 SEX F
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME George /Byron/
+1 SEX M
+1 FAMS @F1@
+0 @F1@ FAM
+1 HUSB @I3@
+1 WIFE @I2@
+1 CHIL @I1@
+0 TRLR

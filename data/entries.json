@@ -184,7 +184,7 @@
   "sub": "JavaScript and TypeScript",
   "name": "gedcom-tools",
   "url": "https://github.com/thememorypalace/gedcom-tools",
-  "desc": "Converts GEDCOM 5.5.1 to 7.0 and back, checks files and decodes ANSEL, with no dependencies.",
+  "desc": "Converts GEDCOM 5.5.1 to 7.0 and back, checks files and decodes ANSEL, with no dependencies; published on npm as @thememorypalace/gedcom-tools.",
   "repo": "thememorypalace/gedcom-tools",
   "api": null,
   "keep": false,
