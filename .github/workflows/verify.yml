@@ -1,0 +1,60 @@
+name: Verify entries
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify every entry
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/verify.py | tee verify.log
+      - name: Lint data
+        id: lint
+        continue-on-error: true
+        run: python3 scripts/lint_data.py | tee lint.log
+      - name: Open an issue when entries fail
+        if: steps.lint.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "The weekly verification found entries that no longer pass."
+            echo
+            echo '```text'
+            cat lint.log
+            echo '```'
+          } > issue.md
+          gh issue create --title "Weekly verification failures $(date +%F)" --body-file issue.md
+      - name: Open a pull request with refreshed metadata
+        if: steps.lint.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/build_readme.py
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          refresh="verify/$(date +%F)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --create "$refresh"
+          git add data/verification.json README.md
+          git commit -m "Refresh verification data"
+          git push origin "$refresh"
+          gh pr create --title "Refresh verification data $(date +%F)" --body "Weekly re-verification changed repository metadata only. No entry failed."

@@ -1,0 +1,34 @@
+{
+ "https://gramps-project.org/wiki/index.php/Gramps_XML": {
+  "note": "Cloudflare challenge blocks bots; the 2026-08-24 Wayback Machine snapshot was read and describes Gramps XML as the format for storing Gramps data.",
+  "date": "2026-11-26"
+ },
+ "https://www.gramps-project.org/wiki/index.php/Portal:Developers": {
+  "note": "Cloudflare challenge blocks bots; the 2026-10-05 Wayback Machine snapshot was read and is the Gramps Developers Portal.",
+  "date": "2026-11-26"
+ },
+ "https://www.snpedia.com/": {
+  "note": "Bot-blocked (403); a web search on 2026-11-26 returned snpedia.com and bots.snpedia.com pages describing SNPedia as a human-genetics wiki.",
+  "date": "2026-11-26"
+ },
+ "https://fhiso.org/": {
+  "note": "Cloudflare challenge blocks bots; Wayback Machine snapshot dated 2026-09-06 returned 200.",
+  "date": "2026-11-26"
+ },
+ "https://fhiso.org/TR/elf-serialisation": {
+  "note": "Cloudflare challenge blocks bots; the 2023-12-02 Wayback Machine snapshot was read and describes the Extended Legacy Format serialisation draft.",
+  "date": "2026-11-26"
+ },
+ "https://isogg.org/wiki/": {
+  "note": "Cloudflare challenge blocks bots; a web search on 2026-11-26 returned current isogg.org/wiki pages on haplogroups and DNA projects.",
+  "date": "2026-11-26"
+ },
+ "https://gov.genealogy.net/": {
+  "note": "Serves a bot check page; a web search on 2026-11-26 returned gov.genealogy.net pages describing a free gazetteer run by the Verein fuer Computergenealogie.",
+  "date": "2026-11-26"
+ },
+ "https://www.familysearch.org/en/wiki/": {
+  "note": "Serves a bot interstitial; a web search on 2026-11-26 returned familysearch.org/en/wiki pages for research guides.",
+  "date": "2026-11-26"
+ }
+}

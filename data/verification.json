@@ -1,0 +1,2862 @@
+[
+ {
+  "id": 0,
+  "name": "GEDCOM 5.5.1 Specification",
+  "url": "https://gedcom.io/specifications/ged551.pdf",
+  "http": {
+   "status": 206,
+   "final_url": "https://gedcom.io/specifications/ged551.pdf",
+   "title": "",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 1,
+  "name": "FamilySearch GEDCOM 7.0 Specification",
+  "url": "https://gedcom.io/specifications/FamilySearchGEDCOMv7.html",
+  "http": {
+   "status": 206,
+   "final_url": "https://gedcom.io/specifications/FamilySearchGEDCOMv7.html",
+   "title": "The FamilySearch GEDCOM Specification",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 2,
+  "name": "FamilySearch/GEDCOM",
+  "url": "https://github.com/FamilySearch/GEDCOM",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/GEDCOM",
+   "title": "GitHub - FamilySearch/GEDCOM · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "FamilySearch/GEDCOM",
+   "archived": false,
+   "pushed_at": "2026-11-19T23:47:20Z",
+   "license": "Apache-2.0",
+   "stars": 289,
+   "description": null,
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 3,
+  "name": "GEDCOM Registries",
+  "url": "https://github.com/FamilySearch/GEDCOM-registries",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/GEDCOM-registries",
+   "title": "GitHub - FamilySearch/GEDCOM-registries · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "FamilySearch/GEDCOM-registries",
+   "archived": false,
+   "pushed_at": "2026-11-21T16:46:28Z",
+   "license": null,
+   "stars": 6,
+   "description": null,
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 4,
+  "name": "GEDCOM Migration Guide",
+  "url": "https://gedcom.io/migrate/",
+  "http": {
+   "status": 206,
+   "final_url": "https://gedcom.io/migrate/",
+   "title": "Migrating v5.5.1 to v7.0 - FamilySearch GEDCOM",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 5,
+  "name": "gedcom.io Tools",
+  "url": "https://gedcom.io/tools/",
+  "http": {
+   "status": 206,
+   "final_url": "https://gedcom.io/tools/",
+   "title": "Tools for FamilySearch GEDCOM",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 6,
+  "name": "GEDCOM X",
+  "url": "http://www.gedcomx.org/",
+  "http": {
+   "status": 206,
+   "final_url": "http://gedcomx.org/",
+   "title": "GEDCOM X",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 7,
+  "name": "FamilySearch/gedcomx",
+  "url": "https://github.com/FamilySearch/gedcomx",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/gedcomx",
+   "title": "GitHub - FamilySearch/gedcomx: An open data model and an open serialization format for exchanging genealogical data. · G",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "FamilySearch/gedcomx",
+   "archived": false,
+   "pushed_at": "2026-04-29T18:31:32Z",
+   "license": "Apache-2.0",
+   "stars": 396,
+   "description": "An open data model and an open serialization format for exchanging genealogical data.",
+   "language": null
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 8,
+  "name": "GEDCOM X JSON Serialization",
+  "url": "https://github.com/FamilySearch/gedcomx/blob/master/specifications/json-format-specification.md",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/gedcomx/blob/master/specifications/json-format-specification.md",
+   "title": "gedcomx/specifications/json-format-specification.md at master · FamilySearch/gedcomx · GitHub",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 9,
+  "name": "AXGF Specification",
+  "url": "https://github.com/plkarin/axgf-spec",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/plkarin/axgf-spec",
+   "title": "GitHub - plkarin/axgf-spec: Open genealogy data standard by Axiom. JSON-native, AI-readable, multilingual. Replaces GEDC",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "plkarin/axgf-spec",
+   "archived": false,
+   "pushed_at": "2026-11-04T16:14:57Z",
+   "license": "CC0-1.0",
+   "stars": 3,
+   "description": "Open genealogy data standard by Axiom. JSON-native, AI-readable, multilingual. Replaces GEDCOM with confidence scoring, multi-calendar dates, embedded documents, and first-class relationships. CC0 public domain.",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 10,
+  "name": "gedcom (tmcw)",
+  "url": "https://github.com/tmcw/gedcom",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/tmcw/gedcom",
+   "title": "GitHub - tmcw/gedcom: A simple GEDCOM parser that focuses on translating GEDCOM structure into JSON. · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "tmcw/gedcom",
+   "archived": false,
+   "pushed_at": "2025-12-14T20:10:57Z",
+   "license": "ISC",
+   "stars": 189,
+   "description": "A simple GEDCOM parser that focuses on translating GEDCOM structure into JSON.",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 11,
+  "name": "gedcom.json",
+  "url": "https://github.com/Jisco/gedcom.json",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/Jisco/gedcom.json",
+   "title": "GitHub - Jisco/gedcom.json: Convert GEDCOM Files to an JSON File or an JavaScript-Object and vice versa · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "Jisco/gedcom.json",
+   "archived": false,
+   "pushed_at": "2026-03-14T07:54:09Z",
+   "license": "MIT",
+   "stars": 31,
+   "description": "Convert GEDCOM Files to an JSON File or an JavaScript-Object and vice versa",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 12,
+  "name": "Gramps XML",
+  "url": "https://gramps-project.org/wiki/index.php/Gramps_XML",
+  "http": {
+   "status": 403,
+   "final_url": "https://gramps-project.org/wiki/index.php/Gramps_XML",
+   "title": "Just a moment...",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "manual",
+  "reason": "Cloudflare challenge blocks bots; the 2026-08-24 Wayback Machine snapshot was read and describes Gramps XML as the format for storing Gramps data.",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 13,
+  "name": "FHISO Extended Legacy Format",
+  "url": "https://fhiso.org/TR/elf-serialisation",
+  "http": {
+   "status": 503,
+   "final_url": "https://fhiso.org/TR/elf-serialisation",
+   "title": "Temporarily Unavailable - Family History Information Standards Organisation",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "manual",
+  "reason": "Cloudflare challenge blocks bots; the 2023-12-02 Wayback Machine snapshot was read and describes the Extended Legacy Format serialisation draft.",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 14,
+  "name": "read-gedcom",
+  "url": "https://github.com/arbre-app/read-gedcom",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/arbre-app/read-gedcom",
+   "title": "GitHub - arbre-app/read-gedcom: A modern Gedcom parser written in Typescript · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "arbre-app/read-gedcom",
+   "archived": false,
+   "pushed_at": "2025-12-12T10:04:53Z",
+   "license": "MIT",
+   "stars": 28,
+   "description": "A modern Gedcom parser written in Typescript",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 15,
+  "name": "gedcom-tools",
+  "url": "https://github.com/thememorypalace/gedcom-tools",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/thememorypalace/gedcom-tools",
+   "title": "GitHub - thememorypalace/gedcom-tools: Convert GEDCOM 5.5.1 to 7.0 and back, check GEDCOM files, decode ANSEL. Zero depe",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "thememorypalace/gedcom-tools",
+   "archived": false,
+   "pushed_at": "2026-11-17T21:29:11Z",
+   "license": "MIT",
+   "stars": 0,
+   "description": "Convert GEDCOM 5.5.1 to 7.0 and back, check GEDCOM files, decode ANSEL. Zero dependencies.",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 16,
+  "name": "gedcom-test-files",
+  "url": "https://github.com/thememorypalace/gedcom-test-files",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/thememorypalace/gedcom-test-files",
+   "title": "GitHub - thememorypalace/gedcom-test-files: Small synthetic GEDCOM 5.5.1 and 7.0 files with known faults (broken links, ",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "thememorypalace/gedcom-test-files",
+   "archived": false,
+   "pushed_at": "2026-11-17T21:29:42Z",
+   "license": "MIT",
+   "stars": 0,
+   "description": "Small synthetic GEDCOM 5.5.1 and 7.0 files with known faults (broken links, duplicate IDs, impossible dates, ANSEL, UTF-16, garbled UTF-8) for testing genealogy software.",
+   "language": "JavaScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 17,
+  "name": "JsGEDCOM",
+  "url": "https://github.com/MesseBasseProduction/JsGEDCOM",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/MesseBasseProduction/JsGEDCOM",
+   "title": "GitHub - MesseBasseProduction/JsGEDCOM: A JavaScript GEDCOM parser · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "MesseBasseProduction/JsGEDCOM",
+   "archived": false,
+   "pushed_at": "2026-06-22T13:44:24Z",
+   "license": "GPL-3.0",
+   "stars": 2,
+   "description": "A JavaScript GEDCOM parser",
+   "language": "JavaScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 18,
+  "name": "python-gedcom7",
+  "url": "https://github.com/DavidMStraub/python-gedcom7",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/DavidMStraub/python-gedcom7",
+   "title": "GitHub - DavidMStraub/python-gedcom7: GEDCOM 7 parser and serializer for Python · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "DavidMStraub/python-gedcom7",
+   "archived": false,
+   "pushed_at": "2026-11-17T16:18:51Z",
+   "license": "MIT",
+   "stars": 16,
+   "description": "GEDCOM 7 parser and serializer for Python",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 19,
+  "name": "ged4py",
+  "url": "https://github.com/andy-z/ged4py",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/andy-z/ged4py",
+   "title": "GitHub - andy-z/ged4py: GEDCOM tools for Python · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "andy-z/ged4py",
+   "archived": false,
+   "pushed_at": "2026-09-08T16:48:18Z",
+   "license": "MIT",
+   "stars": 22,
+   "description": "GEDCOM tools for Python",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 20,
+  "name": "python-gedcom",
+  "url": "https://github.com/madprime/python-gedcom",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/madprime/python-gedcom",
+   "title": "GitHub - madprime/python-gedcom: Python module for parsing, analyzing, and manipulating GEDCOM files · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "madprime/python-gedcom",
+   "archived": false,
+   "pushed_at": "2024-01-19T12:54:41Z",
+   "license": "GPL-2.0",
+   "stars": 66,
+   "description": "Python module for parsing, analyzing, and manipulating GEDCOM files",
+   "language": "Python"
+  },
+  "verdict": "stale",
+  "reason": "last push 34 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 21,
+  "name": "gedcom5-java",
+  "url": "https://github.com/FamilySearch/gedcom5-java",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/gedcom5-java",
+   "title": "GitHub - FamilySearch/gedcom5-java: Gedcom parsers · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "FamilySearch/gedcom5-java",
+   "archived": false,
+   "pushed_at": "2026-10-15T15:24:02Z",
+   "license": "Apache-2.0",
+   "stars": 90,
+   "description": "Gedcom parsers",
+   "language": "Java"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 22,
+  "name": "gedcom4j",
+  "url": "https://github.com/frizbog/gedcom4j",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/frizbog/gedcom4j",
+   "title": "GitHub - frizbog/gedcom4j: Java library for reading/writing genealogy files in GEDCOM format · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "frizbog/gedcom4j",
+   "archived": false,
+   "pushed_at": "2023-06-13T13:35:08Z",
+   "license": null,
+   "stars": 63,
+   "description": "Java library for reading/writing genealogy files in GEDCOM format",
+   "language": "Java"
+  },
+  "verdict": "stale",
+  "reason": "last push 41 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 23,
+  "name": "gedcomx-java",
+  "url": "https://github.com/FamilySearch/gedcomx-java",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/gedcomx-java",
+   "title": "GitHub - FamilySearch/gedcomx-java: Java support for GEDCOM X · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "FamilySearch/gedcomx-java",
+   "archived": false,
+   "pushed_at": "2026-10-26T16:39:19Z",
+   "license": "Apache-2.0",
+   "stars": 61,
+   "description": "Java support for GEDCOM X",
+   "language": "Java"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 24,
+  "name": "gedcom (elliotchance)",
+  "url": "https://github.com/elliotchance/gedcom",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/elliotchance/gedcom",
+   "title": "GitHub - elliotchance/gedcom: 👪 A Go library and CLI tools for encoding, decoding, traversing, merging, comparing, query",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "elliotchance/gedcom",
+   "archived": false,
+   "pushed_at": "2026-11-24T15:59:27Z",
+   "license": "MIT",
+   "stars": 124,
+   "description": "👪 A Go library and CLI tools for encoding, decoding, traversing, merging, comparing, querying and publishing GEDCOM files.",
+   "language": "Go"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 25,
+  "name": "gedcom-go",
+  "url": "https://github.com/cacack/gedcom-go",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/cacack/gedcom-go",
+   "title": "GitHub - cacack/gedcom-go: Lossless Go library for reading, writing, validating and converting GEDCOM 5.5/5.5.1/7.0 gene",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "cacack/gedcom-go",
+   "archived": false,
+   "pushed_at": "2026-11-26T01:07:49Z",
+   "license": "MIT",
+   "stars": 7,
+   "description": "Lossless Go library for reading, writing, validating and converting GEDCOM 5.5/5.5.1/7.0 genealogy files",
+   "language": "Go"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 26,
+  "name": "gedcomx-rs",
+  "url": "https://github.com/ephraimkunz/gedcomx-rs",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/ephraimkunz/gedcomx-rs",
+   "title": "GitHub - ephraimkunz/gedcomx-rs: A collection of Rust crates for working with GEDCOM X. · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "ephraimkunz/gedcomx-rs",
+   "archived": false,
+   "pushed_at": "2026-06-19T13:48:33Z",
+   "license": "MIT",
+   "stars": 5,
+   "description": "A collection of Rust crates for working with GEDCOM X.",
+   "language": "Rust"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 27,
+  "name": "rust-gedcom",
+  "url": "https://github.com/pirtleshell/rust-gedcom",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/pirtleshell/rust-gedcom",
+   "title": "GitHub - pirtleshell/rust-gedcom: a gedcom parser written in rust :crab: · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "pirtleshell/rust-gedcom",
+   "archived": false,
+   "pushed_at": "2023-01-05T14:24:38Z",
+   "license": "MIT",
+   "stars": 8,
+   "description": "a gedcom parser written in rust :crab:",
+   "language": "Rust"
+  },
+  "verdict": "stale",
+  "reason": "last push 46 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 28,
+  "name": "GeneGenie.Gedcom",
+  "url": "https://github.com/TheGeneGenieProject/GeneGenie.Gedcom",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/TheGeneGenieProject/GeneGenie.Gedcom",
+   "title": "GitHub - TheGeneGenieProject/GeneGenie.Gedcom: A .NET library for loading, saving, working with and analysing family tre",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "TheGeneGenieProject/GeneGenie.Gedcom",
+   "archived": false,
+   "pushed_at": "2026-11-25T22:11:40Z",
+   "license": "AGPL-3.0",
+   "stars": 59,
+   "description": "A .NET library for loading, saving, working with and analysing family trees stored in GEDCOM files.",
+   "language": "C#"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 29,
+  "name": "gedcomx-csharp",
+  "url": "https://github.com/FamilySearch/gedcomx-csharp",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/gedcomx-csharp",
+   "title": "GitHub - FamilySearch/gedcomx-csharp: C# Libraries for GEDCOM X Processing · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "FamilySearch/gedcomx-csharp",
+   "archived": false,
+   "pushed_at": "2023-04-02T14:34:13Z",
+   "license": "Apache-2.0",
+   "stars": 45,
+   "description": "C# Libraries for GEDCOM X Processing",
+   "language": "C#"
+  },
+  "verdict": "stale",
+  "reason": "last push 43 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 30,
+  "name": "magicsunday/gedcom-parser",
+  "url": "https://github.com/magicsunday/gedcom-parser",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/magicsunday/gedcom-parser",
+   "title": "GitHub - magicsunday/gedcom-parser: A streaming, spec-conformant GEDCOM 5.5.1 and 7.0 parser with a fully typed model fo",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "magicsunday/gedcom-parser",
+   "archived": false,
+   "pushed_at": "2026-11-20T12:22:36Z",
+   "license": "MIT",
+   "stars": 2,
+   "description": "A streaming, spec-conformant GEDCOM 5.5.1 and 7.0 parser with a fully typed model for PHP 8.3+",
+   "language": "PHP"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 31,
+  "name": "php-gedcom",
+  "url": "https://github.com/liberusoftware/php-gedcom",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/liberusoftware/php-gedcom",
+   "title": "GitHub - liberusoftware/php-gedcom: Gedcom 5.5.1 and Gedcom X - Reading and writing for PHP 8.4. · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "liberusoftware/php-gedcom",
+   "archived": false,
+   "pushed_at": "2026-07-13T14:29:22Z",
+   "license": "MIT",
+   "stars": 78,
+   "description": "Gedcom 5.5.1 and Gedcom X - Reading and writing for PHP 8.4.",
+   "language": "PHP"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 32,
+  "name": "gedcom-dart",
+  "url": "https://github.com/orestesgaolin/gedcom-dart",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/orestesgaolin/gedcom-dart",
+   "title": "GitHub - orestesgaolin/gedcom-dart: Dart library to parse GEDCOM data · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "orestesgaolin/gedcom-dart",
+   "archived": false,
+   "pushed_at": "2026-07-09T23:25:04Z",
+   "license": "GPL-2.0",
+   "stars": 8,
+   "description": "Dart library to parse GEDCOM data",
+   "language": "Dart"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 33,
+  "name": "gedcom (rbur004)",
+  "url": "https://github.com/rbur004/gedcom",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/rbur004/gedcom",
+   "title": "GitHub - rbur004/gedcom: Ruby Gedcom parser · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "rbur004/gedcom",
+   "archived": false,
+   "pushed_at": "2022-04-28T04:41:31Z",
+   "license": null,
+   "stars": 14,
+   "description": "Ruby Gedcom parser",
+   "language": "Ruby"
+  },
+  "verdict": "stale",
+  "reason": "last push 55 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 34,
+  "name": "ged2dot",
+  "url": "https://github.com/vmiklos/ged2dot",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/vmiklos/ged2dot",
+   "title": "GitHub - vmiklos/ged2dot: GEDCOM to Graphviz converter · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "vmiklos/ged2dot",
+   "archived": false,
+   "pushed_at": "2026-11-01T13:12:34Z",
+   "license": "MPL-2.0",
+   "stars": 109,
+   "description": "GEDCOM to Graphviz converter",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 35,
+  "name": "gedcom5-conversion",
+  "url": "https://github.com/FamilySearch/gedcom5-conversion",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/gedcom5-conversion",
+   "title": "GitHub - FamilySearch/gedcom5-conversion: Utilities for GEDCOM 5.5 to GEDCOM X Conversion · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "FamilySearch/gedcom5-conversion",
+   "archived": false,
+   "pushed_at": "2024-04-01T13:33:02Z",
+   "license": null,
+   "stars": 34,
+   "description": "Utilities for GEDCOM 5.5 to GEDCOM X Conversion",
+   "language": "Java"
+  },
+  "verdict": "stale",
+  "reason": "last push 31 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 36,
+  "name": "ged2site",
+  "url": "https://github.com/nigelhorne/ged2site",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/nigelhorne/ged2site",
+   "title": "GitHub - nigelhorne/ged2site: Create a family tree website from a Gedcom file · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "nigelhorne/ged2site",
+   "archived": false,
+   "pushed_at": "2026-11-14T02:00:46Z",
+   "license": "GPL-2.0",
+   "stars": 43,
+   "description": "Create a family tree website from a Gedcom file",
+   "language": "Perl"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 37,
+  "name": "GEDCOM to Visual Map",
+  "url": "https://github.com/D-Jeffrey/gedcom-to-visualmap",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/D-Jeffrey/gedcom-to-visualmap",
+   "title": "GitHub - D-Jeffrey/gedcom-to-visualmap: Using GEDCOM in Python, build a map using Folium (heat and line) or kml. It will",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "D-Jeffrey/gedcom-to-visualmap",
+   "archived": false,
+   "pushed_at": "2026-09-07T18:26:36Z",
+   "license": "MIT",
+   "stars": 23,
+   "description": "Using GEDCOM in Python, build a map using Folium (heat and line) or kml. It will Geocode different types of places and allow you to update those discovered addresses with GPS values.   Includes GUI interface",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 38,
+  "name": "gedcom-cli",
+  "url": "https://github.com/cacack/gedcom-cli",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/cacack/gedcom-cli",
+   "title": "GitHub - cacack/gedcom-cli: Command-line tool for inspecting, validating and correcting GEDCOM genealogy files, built on",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "cacack/gedcom-cli",
+   "archived": false,
+   "pushed_at": "2026-11-25T22:31:57Z",
+   "license": "MIT",
+   "stars": 0,
+   "description": "Command-line tool for inspecting, validating and correcting GEDCOM genealogy files, built on gedcom-go",
+   "language": "Go"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 39,
+  "name": "family-chart",
+  "url": "https://github.com/donatso/family-chart",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/donatso/family-chart",
+   "title": "GitHub - donatso/family-chart: family tree visualization built on top of d3 · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "donatso/family-chart",
+   "archived": false,
+   "pushed_at": "2026-04-08T20:54:24Z",
+   "license": "MIT",
+   "stars": 804,
+   "description": "family tree visualization built on top of d3",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 40,
+  "name": "topola",
+  "url": "https://github.com/PeWu/topola",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/PeWu/topola",
+   "title": "GitHub - PeWu/topola: Topola – online genealogy visualization · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "PeWu/topola",
+   "archived": false,
+   "pushed_at": "2026-11-25T17:51:40Z",
+   "license": "Apache-2.0",
+   "stars": 123,
+   "description": "Topola – online genealogy visualization",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 41,
+  "name": "dTree",
+  "url": "https://github.com/ErikGartner/dTree",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/ErikGartner/dTree",
+   "title": "GitHub - ErikGartner/dTree: A library for visualizing data trees with multiple parents, such as family trees. Built on t",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "ErikGartner/dTree",
+   "archived": false,
+   "pushed_at": "2024-05-14T09:32:56Z",
+   "license": "MIT",
+   "stars": 558,
+   "description": "A library for visualizing data trees with multiple parents, such as family trees. Built on top of D3.",
+   "language": "JavaScript"
+  },
+  "verdict": "stale",
+  "reason": "last push 30 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 42,
+  "name": "d3-dag",
+  "url": "https://github.com/erikbrinkman/d3-dag",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/erikbrinkman/d3-dag",
+   "title": "GitHub - erikbrinkman/d3-dag: Layout algorithms for visualizing directed acyclic graphs · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "erikbrinkman/d3-dag",
+   "archived": false,
+   "pushed_at": "2026-11-23T00:52:41Z",
+   "license": "MIT",
+   "stars": 1528,
+   "description": "Layout algorithms for visualizing directed acyclic graphs",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 43,
+  "name": "relatives-tree",
+  "url": "https://github.com/SanichKotikov/relatives-tree",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/SanichKotikov/relatives-tree",
+   "title": "GitHub - SanichKotikov/relatives-tree: A tiny library for calculating specific JSON data to family tree nodes and connec",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "SanichKotikov/relatives-tree",
+   "archived": false,
+   "pushed_at": "2025-03-23T20:39:25Z",
+   "license": "MIT",
+   "stars": 57,
+   "description": "A tiny library for calculating specific JSON data to family tree nodes and connectors 🌳",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 44,
+  "name": "react-family-tree",
+  "url": "https://github.com/SanichKotikov/react-family-tree",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/SanichKotikov/react-family-tree",
+   "title": "GitHub - SanichKotikov/react-family-tree: React component that renders a family tree · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "SanichKotikov/react-family-tree",
+   "archived": false,
+   "pushed_at": "2024-07-11T02:56:04Z",
+   "license": "MIT",
+   "stars": 71,
+   "description": "React component that renders a family tree",
+   "language": "TypeScript"
+  },
+  "verdict": "stale",
+  "reason": "last push 28 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 45,
+  "name": "PedigreeJS",
+  "url": "https://github.com/CCGE-BOADICEA/pedigreejs",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/CCGE-BOADICEA/pedigreejs",
+   "title": "GitHub - CCGE-BOADICEA/pedigreejs: A web tool for building pedigrees, https://ccge-boadicea.github.io/pedigreejs/ · GitH",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "CCGE-BOADICEA/pedigreejs",
+   "archived": false,
+   "pushed_at": "2026-10-22T09:38:40Z",
+   "license": "GPL-3.0",
+   "stars": 79,
+   "description": "A web tool for building pedigrees, https://ccge-boadicea.github.io/pedigreejs/",
+   "language": "JavaScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 46,
+  "name": "kingraph",
+  "url": "https://github.com/rstacruz/kingraph",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/rstacruz/kingraph",
+   "title": "GitHub - rstacruz/kingraph: Plots family trees using JavaScript and Graphviz · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "rstacruz/kingraph",
+   "archived": false,
+   "pushed_at": "2022-12-23T11:24:38Z",
+   "license": null,
+   "stars": 467,
+   "description": "Plots family trees using JavaScript and Graphviz",
+   "language": "JavaScript"
+  },
+  "verdict": "stale",
+  "reason": "last push 47 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 47,
+  "name": "FamilyTreeJS",
+  "url": "https://github.com/BALKANGraph/FamilyTreeJS",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/BALKANGraph/FamilyTreeJS",
+   "title": "GitHub - BALKANGraph/FamilyTreeJS: Build family tree app with BALKAN FamilyTreeJS library. Family Tree also called a gen",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "BALKANGraph/FamilyTreeJS",
+   "archived": false,
+   "pushed_at": "2026-08-05T07:25:28Z",
+   "license": null,
+   "stars": 90,
+   "description": "Build family tree app with BALKAN FamilyTreeJS library. Family Tree also called a genealogy or a pedigree chart, is a chart representing family relationships in a conventional tree structure.",
+   "language": null
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 48,
+  "name": "GoJS Family Tree Sample",
+  "url": "https://gojs.net/latest/samples/familyTree.html",
+  "http": {
+   "status": 206,
+   "final_url": "https://gojs.net/latest/samples/familyTree",
+   "title": "Family Tree Diagram of British Nobility | GoJS Diagramming Library",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 49,
+  "name": "synergycodes/familyTree",
+  "url": "https://github.com/synergycodes/familyTree",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/synergycodes/familyTree",
+   "title": "GitHub - synergycodes/familyTree: Family Tree Layout with GoJS · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "synergycodes/familyTree",
+   "archived": false,
+   "pushed_at": "2025-06-18T12:26:29Z",
+   "license": null,
+   "stars": 2,
+   "description": "Family Tree Layout with GoJS",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 50,
+  "name": "Graphviz",
+  "url": "https://graphviz.org/",
+  "http": {
+   "status": 200,
+   "final_url": "https://graphviz.org/",
+   "title": "Graphviz",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 51,
+  "name": "kinship2",
+  "url": "https://cran.r-project.org/package=kinship2",
+  "http": {
+   "status": 206,
+   "final_url": "https://cran.r-project.org/web/packages/kinship2/index.html",
+   "title": "CRAN: Package kinship2",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 52,
+  "name": "ggenealogy",
+  "url": "https://cran.r-project.org/package=ggenealogy",
+  "http": {
+   "status": 206,
+   "final_url": "https://cran.r-project.org/web/packages/ggenealogy/index.html",
+   "title": "CRAN: Package ggenealogy",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 53,
+  "name": "webtrees-pedigree-chart",
+  "url": "https://github.com/magicsunday/webtrees-pedigree-chart",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/magicsunday/webtrees-pedigree-chart",
+   "title": "GitHub - magicsunday/webtrees-pedigree-chart: SVG pedigree chart module for the webtrees genealogy application — interac",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "magicsunday/webtrees-pedigree-chart",
+   "archived": false,
+   "pushed_at": "2026-11-25T06:48:31Z",
+   "license": "GPL-3.0",
+   "stars": 58,
+   "description": "SVG pedigree chart module for the webtrees genealogy application — interactive D3.js tree visualization with multiple layouts and up to 25 generations.",
+   "language": "PHP"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 54,
+  "name": "Gramps",
+  "url": "https://github.com/gramps-project/gramps",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/gramps-project/gramps",
+   "title": "GitHub - gramps-project/gramps: Source code for Gramps Genealogical program · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "gramps-project/gramps",
+   "archived": false,
+   "pushed_at": "2026-10-27T23:59:12Z",
+   "license": "GPL-2.0",
+   "stars": 3211,
+   "description": "Source code for Gramps Genealogical program",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 55,
+  "name": "Gramps Addons",
+  "url": "https://github.com/gramps-project/addons-source",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/gramps-project/addons-source",
+   "title": "GitHub - gramps-project/addons-source: Contributed 3rd party plugins for Gramps · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "gramps-project/addons-source",
+   "archived": false,
+   "pushed_at": "2026-11-25T21:07:18Z",
+   "license": "GPL-2.0",
+   "stars": 113,
+   "description": "Contributed 3rd party plugins for Gramps",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 56,
+  "name": "GEDKeeper",
+  "url": "https://github.com/Serg-Norseman/GEDKeeper",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/Serg-Norseman/GEDKeeper",
+   "title": "GitHub - Serg-Norseman/GEDKeeper: GEDKeeper - program for work with personal genealogical database · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "Serg-Norseman/GEDKeeper",
+   "archived": false,
+   "pushed_at": "2026-11-25T21:29:18Z",
+   "license": "GPL-3.0",
+   "stars": 217,
+   "description": "GEDKeeper - program for work with personal genealogical database",
+   "language": "C#"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 57,
+  "name": "Ancestris",
+  "url": "https://www.ancestris.org/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.ancestris.org/index.html",
+   "title": "Unlimited Family Tree Freeware on Windows, Mac and Linux - Ancestris",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 58,
+  "name": "Family Gem",
+  "url": "https://github.com/michelesalvador/FamilyGem",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/michelesalvador/FamilyGem",
+   "title": "GitHub - michelesalvador/FamilyGem: Android app for genealogical trees · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "michelesalvador/FamilyGem",
+   "archived": false,
+   "pushed_at": "2026-10-18T16:13:09Z",
+   "license": "GPL-3.0",
+   "stars": 201,
+   "description": "Android app for genealogical trees",
+   "language": "Kotlin"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 59,
+  "name": "Gramps Web",
+  "url": "https://github.com/gramps-project/gramps-web",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/gramps-project/gramps-web",
+   "title": "GitHub - gramps-project/gramps-web: Open Source Online Genealogy System · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "gramps-project/gramps-web",
+   "archived": false,
+   "pushed_at": "2026-11-22T15:04:59Z",
+   "license": "AGPL-3.0",
+   "stars": 1868,
+   "description": "Open Source Online Genealogy System",
+   "language": "JavaScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 60,
+  "name": "webtrees",
+  "url": "https://github.com/fisharebest/webtrees",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/fisharebest/webtrees",
+   "title": "GitHub - fisharebest/webtrees: Online genealogy · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "fisharebest/webtrees",
+   "archived": false,
+   "pushed_at": "2026-11-25T16:14:16Z",
+   "license": "GPL-3.0",
+   "stars": 842,
+   "description": "Online genealogy",
+   "language": "PHP"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 61,
+  "name": "GeneWeb",
+  "url": "https://github.com/geneweb/geneweb",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/geneweb/geneweb",
+   "title": "GitHub - geneweb/geneweb: GeneWeb is a free (as in free speech) genealogy software with a web interface created by Danie",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "geneweb/geneweb",
+   "archived": false,
+   "pushed_at": "2026-11-26T06:31:18Z",
+   "license": "GPL-2.0",
+   "stars": 410,
+   "description": "GeneWeb is a free (as in free speech) genealogy software with a web interface created by Daniel de Rauglaudre.",
+   "language": "OCaml"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 62,
+  "name": "Genealogy (MGeurts)",
+  "url": "https://github.com/MGeurts/genealogy",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/MGeurts/genealogy",
+   "title": "GitHub - MGeurts/genealogy: Genealogy is a free and open-source family tree PHP application to record family members and",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "MGeurts/genealogy",
+   "archived": false,
+   "pushed_at": "2026-11-23T09:01:34Z",
+   "license": "MIT",
+   "stars": 373,
+   "description": "Genealogy is a free and open-source family tree PHP application to record family members and their relationships, build with LARAVEL 13.",
+   "language": "PHP"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 63,
+  "name": "Liberu Genealogy",
+  "url": "https://github.com/liberu-genealogy/genealogy-laravel",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/liberusoftware/project-genealogy-laravel-filament",
+   "title": "GitHub - liberusoftware/project-genealogy-laravel-filament: Full genealogy and family tree building application using La",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "liberusoftware/project-genealogy-laravel-filament",
+   "archived": false,
+   "pushed_at": "2026-11-23T03:35:18Z",
+   "license": "MIT",
+   "stars": 195,
+   "description": "Full genealogy and family tree building application using Laravel 13, PHP 8.5, Filament 5 and Livewire 4",
+   "language": "PHP"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 64,
+  "name": "Genea",
+  "url": "https://github.com/genea-app/genea-app",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/genea-app/genea-app",
+   "title": "GitHub - genea-app/genea-app: Visually build and edit family trees online. Genea is a completely serverless solution for",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "genea-app/genea-app",
+   "archived": false,
+   "pushed_at": "2025-12-12T20:30:35Z",
+   "license": "MIT",
+   "stars": 288,
+   "description": "Visually build and edit family trees online. Genea is a completely serverless solution for consuming and authoring GEDCOM genealogy data.",
+   "language": "JavaScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 65,
+  "name": "Betty",
+  "url": "https://github.com/bartfeenstra/betty",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/bartfeenstra/betty",
+   "title": "GitHub - bartfeenstra/betty: Betty visualizes and publishes your family history by building interactive, encyclopedia-li",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "bartfeenstra/betty",
+   "archived": false,
+   "pushed_at": "2026-11-25T11:53:18Z",
+   "license": "GPL-3.0",
+   "stars": 128,
+   "description": "Betty visualizes and publishes your family history by building interactive, encyclopedia-like genealogy websites out of your Gramps and GEDCOM family trees",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 66,
+  "name": "giapha-os",
+  "url": "https://github.com/homielab/giapha-os",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/homielab/giapha-os",
+   "title": "GitHub - homielab/giapha-os: An open-source family genealogy application with an intuitive interface for exploring famil",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "homielab/giapha-os",
+   "archived": false,
+   "pushed_at": "2026-11-22T00:25:44Z",
+   "license": "MIT",
+   "stars": 278,
+   "description": "An open-source family genealogy application with an intuitive interface for exploring family trees, managing members, and finding Vietnamese kinship terms.",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 67,
+  "name": "Charted Roots",
+  "url": "https://github.com/banisterious/obsidian-charted-roots",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/banisterious/obsidian-charted-roots",
+   "title": "GitHub - banisterious/obsidian-charted-roots: Professional genealogical tools for Obsidian. Interactive family charts, g",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "banisterious/obsidian-charted-roots",
+   "archived": false,
+   "pushed_at": "2026-08-14T23:21:11Z",
+   "license": "MIT",
+   "stars": 193,
+   "description": "Professional genealogical tools for Obsidian. Interactive family charts, geographic maps, PDF reports, GEDCOM/Gramps import-export, evidence tracking, and fictional calendar support. Built for genealogists, historians, and worldbuilders.",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 68,
+  "name": "FamilySearch API",
+  "url": "https://developers.familysearch.org/",
+  "http": {
+   "status": 200,
+   "final_url": "https://developers.familysearch.org/",
+   "title": "Level Up Your Genealogy Apps and Services | FamilySearch API",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 69,
+  "name": "WikiTree API",
+  "url": "https://github.com/wikitree/wikitree-api",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/wikitree/wikitree-api",
+   "title": "GitHub - wikitree/wikitree-api: Documentation and examples for using the WikiTree.com API · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "wikitree/wikitree-api",
+   "archived": false,
+   "pushed_at": "2026-09-01T00:50:48Z",
+   "license": null,
+   "stars": 47,
+   "description": "Documentation and examples for using the WikiTree.com API",
+   "language": "HTML"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 70,
+  "name": "Geni API",
+  "url": "https://www.geni.com/platform/developer/help",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.geni.com/platform/developer/help",
+   "title": "Index",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 71,
+  "name": "Gramps Web API",
+  "url": "https://github.com/gramps-project/gramps-web-api",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/gramps-project/gramps-web-api",
+   "title": "GitHub - gramps-project/gramps-web-api: A RESTful web API for Gramps - backend of Gramps Web · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "gramps-project/gramps-web-api",
+   "archived": false,
+   "pushed_at": "2026-11-25T16:19:10Z",
+   "license": "AGPL-3.0",
+   "stars": 234,
+   "description": "A RESTful web API for Gramps - backend of Gramps Web",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 72,
+  "name": "The National Archives Discovery API",
+  "url": "https://discovery.nationalarchives.gov.uk/API/",
+  "http": {
+   "status": 206,
+   "final_url": "https://discovery.nationalarchives.gov.uk/API/Help",
+   "title": "ASP.NET Web API Help Page",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 73,
+  "name": "National Archives Catalog API",
+  "url": "https://catalog.archives.gov/api/v2/api-docs",
+  "http": {
+   "status": 200,
+   "final_url": "https://catalog.archives.gov/api/v2/api-docs",
+   "title": "",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 74,
+  "name": "Library of Congress JSON API",
+  "url": "https://www.loc.gov/apis/",
+  "http": {
+   "status": 206,
+   "final_url": "https://www.loc.gov/apis/",
+   "title": "APIs at the Library of Congress | Library of Congress",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 75,
+  "name": "Open Archives API",
+  "url": "https://www.openarchieven.nl/api/docs/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.openarchieven.nl/api/docs/",
+   "title": "Open Archives API » Open Archieven",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 76,
+  "name": "Europeana APIs",
+  "url": "https://apis.europeana.eu/",
+  "http": {
+   "status": 200,
+   "final_url": "https://api.europeana.eu/en",
+   "title": "Europeana APIs | Europeana",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 77,
+  "name": "Trove API",
+  "url": "https://trove.nla.gov.au/about/create-something/using-api",
+  "http": {
+   "status": 200,
+   "final_url": "https://trove.nla.gov.au/about/create-something/using-api",
+   "title": "Using the API | Trove",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 78,
+  "name": "DPLA API",
+  "url": "https://pro.dp.la/developers/api-codex",
+  "http": {
+   "status": 206,
+   "final_url": "https://pro.dp.la/developers/api-codex",
+   "title": "API Codex | DPLA",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 79,
+  "name": "Internet Archive Developer Portal",
+  "url": "https://archive.org/developers/",
+  "http": {
+   "status": 206,
+   "final_url": "https://archive.org/developers/",
+   "title": "Home — Internet Archive Developer Portal",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 80,
+  "name": "IPUMS API",
+  "url": "https://developer.ipums.org/",
+  "http": {
+   "status": 206,
+   "final_url": "https://developer.ipums.org/",
+   "title": "IPUMS Developer Portal | Documentation for IPUMS API.",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 81,
+  "name": "Wikidata Query Service",
+  "url": "https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual",
+   "title": "Wikidata Query Service/User Manual - MediaWiki",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 82,
+  "name": "Open Archives MCP Server",
+  "url": "https://github.com/coret/openarchieven-mcp-server",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/coret/openarchieven-mcp-server",
+   "title": "GitHub - coret/openarchieven-mcp-server: MCP server for the Open Archives genealogical search engine. · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "coret/openarchieven-mcp-server",
+   "archived": false,
+   "pushed_at": "2026-10-14T12:54:41Z",
+   "license": null,
+   "stars": 4,
+   "description": "MCP server for the Open Archives genealogical search engine.",
+   "language": "TypeScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 83,
+  "name": "DNA Painter",
+  "url": "https://dnapainter.com/",
+  "http": {
+   "status": 200,
+   "final_url": "https://dnapainter.com/",
+   "title": "DNA Painter | Visualizations and chromosome mapping for genealogists",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 84,
+  "name": "GEDmatch",
+  "url": "https://www.gedmatch.com/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.gedmatch.com/",
+   "title": "DNA and Genealogy Tools to Grow Your Family Tree | GEDmatch",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 85,
+  "name": "Genetic Affairs",
+  "url": "https://geneticaffairs.com/",
+  "http": {
+   "status": 206,
+   "final_url": "https://geneticaffairs.com/",
+   "title": "DNA Match Analysis Tools for Genetic Genealogy",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 86,
+  "name": "ISOGG Wiki",
+  "url": "https://isogg.org/wiki/",
+  "http": {
+   "status": 403,
+   "final_url": "https://isogg.org/wiki/",
+   "title": "Just a moment...",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "manual",
+  "reason": "Cloudflare challenge blocks bots; a web search on 2026-11-26 returned current isogg.org/wiki pages on haplogroups and DNA projects.",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 87,
+  "name": "YFull",
+  "url": "https://www.yfull.com/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.yfull.com/",
+   "title": "YFull | NextGen Sequence Interpretation",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 88,
+  "name": "Haplogrep 3",
+  "url": "https://github.com/genepi/haplogrep3",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/genepi/haplogrep3",
+   "title": "GitHub - genepi/haplogrep3: Free mtDNA Haplogroup Classification Service · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "genepi/haplogrep3",
+   "archived": false,
+   "pushed_at": "2026-06-09T16:53:51Z",
+   "license": "MIT",
+   "stars": 40,
+   "description": "Free mtDNA Haplogroup Classification Service",
+   "language": "Java"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 89,
+  "name": "Yleaf",
+  "url": "https://github.com/genid/Yleaf",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/genid/Yleaf",
+   "title": "GitHub - genid/Yleaf: Yleaf software for human Y-chromosomal haplogroup inference from next generation sequencing data ·",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "genid/Yleaf",
+   "archived": false,
+   "pushed_at": "2026-11-04T16:13:06Z",
+   "license": "GPL-3.0",
+   "stars": 40,
+   "description": "Yleaf software for human Y-chromosomal haplogroup inference from next generation sequencing data",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 90,
+  "name": "ped-sim",
+  "url": "https://github.com/williamslab/ped-sim",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/williamslab/ped-sim",
+   "title": "GitHub - williamslab/ped-sim: Pedigree simulator · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "williamslab/ped-sim",
+   "archived": false,
+   "pushed_at": "2026-08-01T00:43:18Z",
+   "license": "GPL-3.0",
+   "stars": 34,
+   "description": "Pedigree simulator",
+   "language": "C++"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 91,
+  "name": "hap-ibd",
+  "url": "https://github.com/browning-lab/hap-ibd",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/browning-lab/hap-ibd",
+   "title": "GitHub - browning-lab/hap-ibd: The hap-ibd program detects identity-by-descent segments in phased genotype data. · GitHu",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "browning-lab/hap-ibd",
+   "archived": false,
+   "pushed_at": "2024-06-11T03:12:55Z",
+   "license": null,
+   "stars": 58,
+   "description": "The hap-ibd program detects identity-by-descent segments in phased genotype data.",
+   "language": "Java"
+  },
+  "verdict": "stale",
+  "reason": "last push 29 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 92,
+  "name": "PLINK 2",
+  "url": "https://www.cog-genomics.org/plink/2.0/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.cog-genomics.org/plink/2.0/",
+   "title": "PLINK 2.0",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 93,
+  "name": "SNPedia",
+  "url": "https://www.snpedia.com/",
+  "http": {
+   "status": 403,
+   "final_url": "https://www.snpedia.com/",
+   "title": "",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "manual",
+  "reason": "Bot-blocked (403); a web search on 2026-11-26 returned snpedia.com and bots.snpedia.com pages describing SNPedia as a human-genetics wiki.",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 94,
+  "name": "Splink",
+  "url": "https://github.com/moj-analytical-services/splink",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/moj-analytical-services/splink",
+   "title": "GitHub - moj-analytical-services/splink: Fast, accurate and scalable probabilistic data linkage with support for multipl",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "moj-analytical-services/splink",
+   "archived": false,
+   "pushed_at": "2026-11-25T14:33:56Z",
+   "license": "MIT",
+   "stars": 2604,
+   "description": "Fast, accurate and scalable probabilistic data linkage with support for multiple SQL backends",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 95,
+  "name": "dedupe",
+  "url": "https://github.com/dedupeio/dedupe",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/dedupeio/dedupe",
+   "title": "GitHub - dedupeio/dedupe: :id: A python library for accurate and scalable fuzzy matching, record deduplication and entit",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "dedupeio/dedupe",
+   "archived": false,
+   "pushed_at": "2025-07-29T00:18:20Z",
+   "license": "MIT",
+   "stars": 4531,
+   "description": ":id: A python library for accurate and scalable fuzzy matching, record deduplication and entity-resolution.",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 96,
+  "name": "recordlinkage",
+  "url": "https://github.com/J535D165/recordlinkage",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/J535D165/recordlinkage",
+   "title": "GitHub - J535D165/recordlinkage: A powerful and modular toolkit for record linkage and duplicate detection in Python · G",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "J535D165/recordlinkage",
+   "archived": false,
+   "pushed_at": "2024-02-21T18:15:38Z",
+   "license": "BSD-3-Clause",
+   "stars": 1065,
+   "description": "A powerful and modular toolkit for record linkage and duplicate detection in Python",
+   "language": "Python"
+  },
+  "verdict": "stale",
+  "reason": "last push 33 months ago; kept as stable reference",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 97,
+  "name": "jellyfish",
+  "url": "https://github.com/jamesturk/jellyfish",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/jamesturk/jellyfish",
+   "title": "GitHub - jamesturk/jellyfish: 🪼 a python library for doing approximate and phonetic matching of strings. · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "jamesturk/jellyfish",
+   "archived": false,
+   "pushed_at": "2026-10-16T02:28:16Z",
+   "license": "MIT",
+   "stars": 2234,
+   "description": "🪼 a python library for doing approximate and phonetic matching of strings.",
+   "language": "Jupyter Notebook"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 98,
+  "name": "python-nameparser",
+  "url": "https://github.com/derek73/python-nameparser",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/derek73/python-nameparser",
+   "title": "GitHub - derek73/python-nameparser: Parse human names into title, given, middle, family, suffix, nickname and maiden nam",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "derek73/python-nameparser",
+   "archived": false,
+   "pushed_at": "2026-11-23T19:51:46Z",
+   "license": null,
+   "stars": 721,
+   "description": "Parse human names into title, given, middle, family, suffix, nickname and maiden name. Typed, zero-dependency, CJK-aware.",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 99,
+  "name": "Transkribus",
+  "url": "https://www.transkribus.org/",
+  "http": {
+   "status": 206,
+   "final_url": "https://www.transkribus.org/",
+   "title": "Transkribus - Unlock History.",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 100,
+  "name": "eScriptorium",
+  "url": "https://gitlab.com/scripta/escriptorium",
+  "http": {
+   "status": 200,
+   "final_url": "https://gitlab.com/scripta/escriptorium",
+   "title": "Scripta / escriptorium · GitLab",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 101,
+  "name": "OCR4all",
+  "url": "https://github.com/OCR4all/OCR4all",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/OCR4all/OCR4all",
+   "title": "GitHub - OCR4all/OCR4all: Provides OCR (Optical Character Recognition) services through web applications · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "OCR4all/OCR4all",
+   "archived": false,
+   "pushed_at": "2026-09-14T13:24:08Z",
+   "license": "MIT",
+   "stars": 713,
+   "description": "Provides OCR (Optical Character Recognition) services through web applications",
+   "language": "Java"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 102,
+  "name": "FromThePage",
+  "url": "https://github.com/benwbrum/fromthepage",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/benwbrum/fromthepage",
+   "title": "GitHub - benwbrum/fromthepage: FromThePage is a wiki-like application for crowdsourcing transcription of handwritten doc",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "benwbrum/fromthepage",
+   "archived": false,
+   "pushed_at": "2026-11-22T18:55:03Z",
+   "license": "AGPL-3.0",
+   "stars": 187,
+   "description": "FromThePage is a wiki-like application for crowdsourcing transcription of handwritten documents.",
+   "language": "Ruby"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 103,
+  "name": "Kraken",
+  "url": "https://github.com/mittagessen/kraken",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/mittagessen/kraken",
+   "title": "GitHub - mittagessen/kraken: OCR engine for all the languages · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "mittagessen/kraken",
+   "archived": false,
+   "pushed_at": "2026-11-21T15:09:54Z",
+   "license": "Apache-2.0",
+   "stars": 1114,
+   "description": "OCR engine for all the languages",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 104,
+  "name": "Tesseract",
+  "url": "https://github.com/tesseract-ocr/tesseract",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/tesseract-ocr/tesseract",
+   "title": "GitHub - tesseract-ocr/tesseract: Tesseract Open Source OCR Engine (main repository) · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "tesseract-ocr/tesseract",
+   "archived": false,
+   "pushed_at": "2026-11-25T22:14:53Z",
+   "license": "Apache-2.0",
+   "stars": 77668,
+   "description": "Tesseract Open Source OCR Engine (main repository)",
+   "language": "C++"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 105,
+  "name": "Calamari",
+  "url": "https://github.com/Calamari-OCR/calamari",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/Calamari-OCR/calamari",
+   "title": "GitHub - Calamari-OCR/calamari: Line based ATR Engine based on OCRopy · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "Calamari-OCR/calamari",
+   "archived": false,
+   "pushed_at": "2026-06-23T22:11:57Z",
+   "license": "GPL-3.0",
+   "stars": 1204,
+   "description": "Line based ATR Engine based on OCRopy",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 106,
+  "name": "Loghi",
+  "url": "https://github.com/knaw-huc/loghi",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/knaw-huc/loghi",
+   "title": "GitHub - knaw-huc/loghi: Loghi is a comprehensive toolkit designed for Handwritten Text Recognition (HTR) and Optical Ch",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "knaw-huc/loghi",
+   "archived": false,
+   "pushed_at": "2026-10-28T15:58:32Z",
+   "license": "MIT",
+   "stars": 163,
+   "description": "Loghi is a comprehensive toolkit designed for Handwritten Text Recognition (HTR) and Optical Character Recognition (OCR), offering an accessible approach to transcribing historical documents and training models for specialized needs. ",
+   "language": "Shell"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 107,
+  "name": "PyLaia",
+  "url": "https://github.com/jpuigcerver/PyLaia",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/jpuigcerver/PyLaia",
+   "title": "GitHub - jpuigcerver/PyLaia: A deep learning toolkit specialized for handwritten document analysis · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "jpuigcerver/PyLaia",
+   "archived": false,
+   "pushed_at": "2025-10-26T13:03:34Z",
+   "license": "MIT",
+   "stars": 262,
+   "description": "A deep learning toolkit specialized for handwritten document analysis",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 108,
+  "name": "docTR",
+  "url": "https://github.com/mindee/doctr",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/mindee/doctr",
+   "title": "GitHub - mindee/doctr: docTR (Document Text Recognition) - a seamless, high-performing & accessible library for OCR-rela",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "mindee/doctr",
+   "archived": false,
+   "pushed_at": "2026-11-24T14:47:13Z",
+   "license": "Apache-2.0",
+   "stars": 6443,
+   "description": "docTR (Document Text Recognition) - a seamless, high-performing & accessible library for OCR-related tasks powered by Deep Learning. Ongoing development and maintenance by t2k.",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 109,
+  "name": "TrOCR Handwritten",
+  "url": "https://huggingface.co/microsoft/trocr-base-handwritten",
+  "http": {
+   "status": 200,
+   "final_url": "https://huggingface.co/microsoft/trocr-base-handwritten",
+   "title": "microsoft/trocr-base-handwritten · Hugging Face",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 110,
+  "name": "HTR-United",
+  "url": "https://htr-united.github.io/",
+  "http": {
+   "status": 206,
+   "final_url": "https://htr-united.github.io/",
+   "title": "Home — HTR-United",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 111,
+  "name": "Tropy",
+  "url": "https://github.com/tropy/tropy",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/tropy/tropy",
+   "title": "GitHub - tropy/tropy: Research photo management · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "tropy/tropy",
+   "archived": false,
+   "pushed_at": "2026-11-26T08:27:23Z",
+   "license": null,
+   "stars": 1173,
+   "description": "Research photo management",
+   "language": "JavaScript"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 112,
+  "name": "GeoNames",
+  "url": "https://www.geonames.org/export/web-services.html",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.geonames.org/export/web-services.html",
+   "title": "GeoNames Web Service Documentation — GeoNames UI",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 113,
+  "name": "Nominatim Usage Policy",
+  "url": "https://operations.osmfoundation.org/policies/nominatim/",
+  "http": {
+   "status": 206,
+   "final_url": "https://operations.osmfoundation.org/policies/nominatim/",
+   "title": "Nominatim Usage Policy (aka Geocoding Policy)",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 114,
+  "name": "Photon",
+  "url": "https://github.com/komoot/photon",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/komoot/photon",
+   "title": "GitHub - komoot/photon: an open source geocoder for openstreetmap data · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "komoot/photon",
+   "archived": false,
+   "pushed_at": "2026-11-23T15:14:17Z",
+   "license": "Apache-2.0",
+   "stars": 3216,
+   "description": "an open source geocoder for openstreetmap data",
+   "language": "Java"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 115,
+  "name": "Pelias",
+  "url": "https://github.com/pelias/pelias",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/pelias/pelias",
+   "title": "GitHub - pelias/pelias: Pelias is a modular open-source geocoder using Elasticsearch. · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "pelias/pelias",
+   "archived": false,
+   "pushed_at": "2026-07-24T17:51:08Z",
+   "license": "MIT",
+   "stars": 3608,
+   "description": "Pelias is a modular open-source geocoder using Elasticsearch.",
+   "language": "Twig"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 116,
+  "name": "geopy",
+  "url": "https://github.com/geopy/geopy",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/geopy/geopy",
+   "title": "GitHub - geopy/geopy: Geocoding library for Python. · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "geopy/geopy",
+   "archived": false,
+   "pushed_at": "2026-07-12T19:49:44Z",
+   "license": "MIT",
+   "stars": 4874,
+   "description": "Geocoding library for Python.",
+   "language": "Python"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 117,
+  "name": "World Historical Gazetteer",
+  "url": "https://whgazetteer.org/",
+  "http": {
+   "status": 200,
+   "final_url": "https://whgazetteer.org/",
+   "title": "WHG v3.0 beta",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 118,
+  "name": "Pleiades",
+  "url": "https://pleiades.stoa.org/",
+  "http": {
+   "status": 206,
+   "final_url": "https://pleiades.stoa.org/",
+   "title": "pleiades.stoa.org",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 119,
+  "name": "OpenHistoricalMap",
+  "url": "https://www.openhistoricalmap.org/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.openhistoricalmap.org/",
+   "title": "OpenHistoricalMap",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 120,
+  "name": "GOV Historical Gazetteer",
+  "url": "https://gov.genealogy.net/",
+  "http": {
+   "status": 200,
+   "final_url": "https://gov.genealogy.net/",
+   "title": "Making sure you're not a bot!",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "manual",
+  "reason": "Serves a bot check page; a web search on 2026-11-26 returned gov.genealogy.net pages describing a free gazetteer run by the Verein fuer Computergenealogie.",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 121,
+  "name": "Getty Thesaurus of Geographic Names",
+  "url": "https://www.getty.edu/research/tools/vocabularies/tgn/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.getty.edu/research/tools/vocabularies/tgn/",
+   "title": "Getty Thesaurus of Geographic Names (Getty Research Institute)",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 122,
+  "name": "Atlas of Historical County Boundaries",
+  "url": "https://publications.newberry.org/ahcb/",
+  "http": {
+   "status": 206,
+   "final_url": "https://publications.newberry.org/ahcb/",
+   "title": "Atlas of Historical County Boundaries",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 123,
+  "name": "IPUMS NHGIS",
+  "url": "https://www.nhgis.org/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.nhgis.org/",
+   "title": "IPUMS NHGIS | National Historical Geographic Information System",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 124,
+  "name": "A Vision of Britain through Time",
+  "url": "https://www.visionofbritain.org.uk/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.visionofbritain.org.uk/",
+   "title": "A Vision of Britain through Time | Your national on-line library for local history | Maps, Statistics, Travel Writing an",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 125,
+  "name": "GEDCOM X Conceptual Model",
+  "url": "https://github.com/FamilySearch/gedcomx/blob/master/specifications/conceptual-model-specification.md",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/FamilySearch/gedcomx/blob/master/specifications/conceptual-model-specification.md",
+   "title": "gedcomx/specifications/conceptual-model-specification.md at master · FamilySearch/gedcomx · GitHub",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 126,
+  "name": "Bio CRM",
+  "url": "http://ldf.fi/schema/bioc/",
+  "http": {
+   "status": 206,
+   "final_url": "http://ldf.fi/schema/sparql?query=CONSTRUCT+{?s+?p+?o}+WHERE+{+{GRAPH+%3Chttp://ldf.fi/schema/bioc/%3E+{?s+?p+?o}+}+UNION+{GRAPH+%3Chttp://ldf.fi/schema/bioc/%3E+{?s+?p+?o}+}+UNION+{GRAPH+%3Chttp://ldf.fi/schema/bioc%3E+{?s+?p+?o}+}+}",
+   "title": "",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 127,
+  "name": "schema.org Person",
+  "url": "https://schema.org/Person",
+  "http": {
+   "status": 206,
+   "final_url": "https://schema.org/Person",
+   "title": "Person - Schema.org Type",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 128,
+  "name": "Relationship Vocabulary",
+  "url": "https://vocab.org/relationship/",
+  "http": {
+   "status": 206,
+   "final_url": "https://vocab.org/relationship/",
+   "title": "RELATIONSHIP: A vocabulary for describing relationships between people",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 129,
+  "name": "FOAF",
+  "url": "http://xmlns.com/foaf/spec/",
+  "http": {
+   "status": 206,
+   "final_url": "https://xmlns.com/foaf/spec/",
+   "title": "FOAF Vocabulary Specification",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 130,
+  "name": "SQLite Tools for RootsMagic",
+  "url": "https://sqlitetoolsforrootsmagic.com/",
+  "http": {
+   "status": 206,
+   "final_url": "https://sqlitetoolsforrootsmagic.com/",
+   "title": "SQLite Tools for RootsMagic – Exploit your RootsMagic family tree database with SQLite Tools",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 131,
+  "name": "FHISO",
+  "url": "https://fhiso.org/",
+  "http": {
+   "status": 200,
+   "final_url": "https://fhiso.org/",
+   "title": "",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 132,
+  "name": "Extended Date/Time Format",
+  "url": "https://www.loc.gov/standards/datetime/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.loc.gov/standards/datetime/",
+   "title": "Extended Date Time Format (EDTF) Specification (Library of Congress)",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 133,
+  "name": "TEI Personography",
+  "url": "https://tei-c.org/release/doc/tei-p5-doc/en/html/ND.html",
+  "http": {
+   "status": 206,
+   "final_url": "https://tei-c.org/release/doc/tei-p5-doc/en/html/ND.html",
+   "title": "14 Names, Dates, People, and Places - The TEI Guidelines",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 134,
+  "name": "IIIF",
+  "url": "https://iiif.io/",
+  "http": {
+   "status": 206,
+   "final_url": "https://iiif.io/",
+   "title": "Home — IIIF | International Image Interoperability Framework",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 135,
+  "name": "W3C Web Annotation Data Model",
+  "url": "https://www.w3.org/TR/annotation-model/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.w3.org/TR/annotation-model/",
+   "title": "Web Annotation Data Model",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 136,
+  "name": "ALTO XML",
+  "url": "https://www.loc.gov/standards/alto/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.loc.gov/standards/alto/",
+   "title": "ALTO: Technical Metadata for Layout and Text Objects (Standards, Library of Congress)",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 137,
+  "name": "PAGE-XML",
+  "url": "https://github.com/PRImA-Research-Lab/PAGE-XML",
+  "http": {
+   "status": 206,
+   "final_url": "https://github.com/PRImA-Research-Lab/PAGE-XML",
+   "title": "GitHub - PRImA-Research-Lab/PAGE-XML: PAGE XML format collection for document image page content and more · GitHub",
+   "error": ""
+  },
+  "repo": {
+   "full_name": "PRImA-Research-Lab/PAGE-XML",
+   "archived": false,
+   "pushed_at": "2026-01-16T21:26:32Z",
+   "license": "Apache-2.0",
+   "stars": 72,
+   "description": "PAGE XML format collection for document image page content and more",
+   "language": "XSLT"
+  },
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 138,
+  "name": "Encoded Archival Description",
+  "url": "https://www.loc.gov/ead/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.loc.gov/ead/",
+   "title": "EAD: Encoded Archival Description (EAD Official Site, Library of Congress)",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 139,
+  "name": "OAI-PMH",
+  "url": "https://www.openarchives.org/pmh/",
+  "http": {
+   "status": 206,
+   "final_url": "https://www.openarchives.org/pmh/",
+   "title": "Open Archives Initiative Protocol for Metadata Harvesting",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 140,
+  "name": "FamilySearch Research Wiki",
+  "url": "https://www.familysearch.org/en/wiki/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.familysearch.org/en/wiki/",
+   "title": "Pardon Our Interruption",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "manual",
+  "reason": "Serves a bot interstitial; a web search on 2026-11-26 returned familysearch.org/en/wiki pages for research guides.",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 141,
+  "name": "Board for Certification of Genealogists Standards",
+  "url": "https://bcgcertification.org/ethics-standards/",
+  "http": {
+   "status": 200,
+   "final_url": "https://bcgcertification.org/ethics-standards",
+   "title": "Ethics and Standards - Board for Certification of Genealogists",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 142,
+  "name": "Genetic Genealogy Standards",
+  "url": "https://www.geneticgenealogystandards.com/",
+  "http": {
+   "status": 206,
+   "final_url": "https://www.geneticgenealogystandards.com/",
+   "title": "",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 143,
+  "name": "Modern Software Experience",
+  "url": "https://www.tamurajones.net/",
+  "http": {
+   "status": 206,
+   "final_url": "https://www.tamurajones.net/",
+   "title": "Modern Software Experience Home Page",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 144,
+  "name": "Gramps Developer Portal",
+  "url": "https://www.gramps-project.org/wiki/index.php/Portal:Developers",
+  "http": {
+   "status": 403,
+   "final_url": "https://www.gramps-project.org/wiki/index.php/Portal:Developers",
+   "title": "Just a moment...",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "manual",
+  "reason": "Cloudflare challenge blocks bots; the 2026-10-05 Wayback Machine snapshot was read and is the Gramps Developers Portal.",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 145,
+  "name": "GENUKI",
+  "url": "https://www.genuki.org.uk/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.genuki.org.uk/",
+   "title": "GENUKI: Home page",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 146,
+  "name": "Cyndi's List",
+  "url": "https://www.cyndislist.com/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.cyndislist.com/",
+   "title": "Welcome to Cyndi's List",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ },
+ {
+  "id": 147,
+  "name": "FreeBMD",
+  "url": "https://www.freebmd.org.uk/",
+  "http": {
+   "status": 200,
+   "final_url": "https://www.freebmd.org.uk/",
+   "title": "FreeBMD Home Page",
+   "error": ""
+  },
+  "repo": null,
+  "verdict": "pass",
+  "reason": "",
+  "checked": "2026-11-26"
+ }
+]
