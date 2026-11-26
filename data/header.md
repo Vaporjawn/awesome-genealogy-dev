@@ -4,6 +4,8 @@
 
 This list is for people who write genealogy software, not for people researching their own tree. It covers file formats and specs, parsers, chart libraries, open-source apps, record-archive APIs, DNA and record-linkage tooling, handwriting recognition, historical geocoding, schemas and standards.
 
+Looking for a GEDCOM parser, a GEDCOM 7 or GEDCOM X library, a family tree chart library for JavaScript or Python, a genealogy API (FamilySearch, WikiTree, Geni, national archives), a DNA segment or kinship tool, handwriting recognition for historical records, or a historical gazetteer? Each is a section below, and each API entry states its auth and rate limits.
+
 Every one of the {{COUNT}} entries was checked against the live web on {{CHECKED}}: the URL answers, GitHub repositories are not archived, and descriptions restate what the project or page says about itself. [How entries are verified](docs/METHODOLOGY.md) and how this list differs from the older GEDCOM and genealogy lists are written down.
 
 How to read an entry:
